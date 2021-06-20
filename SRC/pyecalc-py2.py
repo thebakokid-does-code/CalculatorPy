@@ -1,4 +1,4 @@
-import time
+from time import *
 print("|===============================================================|")
 print("| WELCOME TO LUCAS's PYie CALCULATOR!                           |")
 print("|===============================================================|")
@@ -15,7 +15,7 @@ sum = int(x) + int(y)
 
 
 print("Calculating...")
-.sleep(5)
+sleep(5)
 print("This is taking aufally long..")
 sleep(10)
 print("Done!")
